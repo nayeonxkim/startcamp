@@ -59,13 +59,13 @@ for i in range(1, T + 1):
     n = int(input())
     lst = list(map(int, input().split()))
     cnt = [0] * 101
-    m = 0
-    idx = 0
-    for j in range(len(cnt)):
-        if m <= cnt[j]:
-            m = cnt[j]
-            idx = j
-    print(f'#{n} {idx}')
+    mx = 0
+    ㅑ= 0
+    for j in range(len(num)):
+        if mx <= num[j]:
+            mx = num[j]
+            ans = j
+    print(f'#{n} {ans}')
 ```
 
 [1, 0, 4, 5]
