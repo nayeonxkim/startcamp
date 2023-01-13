@@ -121,3 +121,42 @@ print(r)
 - 변수 타입
 
 - 자릿수 더하기 : for문, 목적어와 나머지
+
+---
+
+# 8958
+
+```python
+T = int(input())
+for i in range(T):
+    ipt = input()
+    ls = []
+    for j in range(len(ipt)):
+        ls.append(ipt[j])
+    point = 0
+    p_ls = []
+    for j in ls:
+        if j == "O":
+            point += 1
+            p_ls.append(point)
+        else:
+            point = 0
+    
+    print(sum(p_ls))
+```
+
+- 문자열로 입력받음
+
+- 각 문자열 요소 리스트로 저장
+
+- O일 때 point 1점씩 높이고 모두 리스트로 저장
+
+- 리스트 요소의 합
+
+- else에 pass하면 실행안됨
+
+---
+
+# 15596
+
+
