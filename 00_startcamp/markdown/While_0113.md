@@ -32,8 +32,6 @@ while cnt<6:
 
 -  <mark>같은 값이 여러 번 출력되는 문제</mark>
 
-
-
 ```python
 ans = []
 while x<6:

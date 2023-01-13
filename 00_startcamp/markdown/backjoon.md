@@ -141,7 +141,7 @@ for i in range(T):
             p_ls.append(point)
         else:
             point = 0
-    
+
     print(sum(p_ls))
 ```
 
@@ -158,5 +158,3 @@ for i in range(T):
 ---
 
 # 15596
-
-

@@ -71,3 +71,13 @@ desktop 디렉토리에 TIL 디렉토리 생성
 - `git clone 레파지토리http` : 원격저장소에서 최초로 프로젝트를 받아올 때
 
 - `git pull origin master` : clone 해 둔 repository를 최신 버전으로 받아오는 것
+
+---
+
+### GitLab
+
+- `git push private main`
+
+- `git pull private main`
+  
+  
