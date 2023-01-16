@@ -44,9 +44,9 @@ for i in range(len(ans)):
     print(ans[i],end=" ")
 ```
 
-리스트끼리 연산은 +만 된다.
+- 리스트끼리 연산은 +만 된다.
 
-리스트 요소를 리스트 빼고, 공백을 넣어서 출력하기 → for문 사용
+- 리스트 요소를 리스트 빼고, 공백을 넣어서 출력하기 → for문 사용
 
 ---
 
@@ -157,4 +157,160 @@ for i in range(T):
 
 ---
 
-# 15596
+# 2675
+
+```python
+T = int(input())
+for n in range(T):
+    r,s = input().split()
+    r = int(r)
+    s_lst = []
+    for i in range(len(s)):
+        s_lst.append(s[i])
+    s_lst.apply(x lambda x*r)
+    for i in range(len(s)):
+        s_lst[i] = s_lst[i]*r
+        ans = ''.join(s for s in s_lst)
+    print(ans)
+```
+
+- `리스트.append(추가할 요소)`
+
+- `''.join`
+
+---
+
+# 1152
+
+```python
+setence = list(input().split())
+print(len(sentence))
+```
+
+---
+
+# 2908
+
+```python
+A,B = input().split()
+a_lst = []
+b_lst = []
+for i in range(len(A)):
+  a_lst.append(A[i])
+  b_lst.append(B[i])
+a_lst.reverse()
+b_lst.reverse()
+
+for i in range(len(A)):
+  A = ''.join(s for s in a_lst)
+  B = ''.join(s for s in b_lst)
+print(max(A,B))
+```
+
+- `리스트.reverse()` : 리스트를 반대로 정렬
+
+---
+
+# 11654
+
+```python
+ipt = input()
+print(ord(ipt))
+```
+
+- `ord()` : 문자열을 아스키코드로 변환
+
+---
+
+# 1157
+
+- 단어 받음 AaB
+
+- 단어 하나씩 리스트로 [A, a, B]
+
+- 대문자로 변환 [A, A, B]
+
+- 아스키코드로 변환 [65, 65, 66]
+
+- cnt 리스트 생성 [0,0,0]
+
+- 아스키코드[i- 65] 나오면 cnt[i]+=1
+
+- cnt 제일 많은거
+
+- 두 개면 ? 
+
+- 아스키코드 -> 알파벳으로 변환해서 출력
+
+```python
+word = input().upper()
+word_lst = []
+for i in range(len(word)):
+    word_lst.append(ord(word[i]))
+### 단어를 대문자로 받음
+### 한글자씩 아스키코드로 리스트 저장.
+
+cnt = [0]*26
+for i in word_lst:
+    cnt[i-65]+=1
+### 알파벳 개수 리스트 생성
+### 각 알파벳의 아스키코드가 cnt의 인덱스가 됨: A(65) → cnt[0]
+### 따라서 알파벳에 해당하는 인덱cnt[i-65]가 1씩 증가하게 함.
+
+mx = max(cnt)
+mx_lst=[]
+
+for i in cnt:
+  if i>=mx:
+    mx_lst.append(cnt.index(i))
+### cnt 값이 최대인 index, 즉 개수가 최대인 알파벳이 여러개인 경우를 대비하여
+### cnt가 최대인 인덱스값을 리스트로 저장한다.
+
+if len(mx_lst)>=2:
+  print('?')
+else:
+  print(chr(mx_lst[0]+65))
+### cnt최대값이 두 개인 경우 ?를, 하나인 경우 해당 값을 알파벳으로 변환하여 출력
+```
+
+<mark>cnt의 인덱스 + 65 = 알파벳의 아스키코드!</mark>
+
+- cnt의 '값'은 해당 알파벳이 몇 번 나왔는지를 뜻하고,
+
+- cnt의 '인덱스'가 알파벳의  아스키코드, 즉 어떤 알파벳인지를 뜻한다.
+
+---
+
+# 1316
+
+```python
+T = int(input())
+
+word_lst = []
+for i in range(T):
+    word = input()
+    for j in range(len(word)):
+        word_lst.append(word[i])
+```
+
+아스키코드 출력
+
+65 65 85 82 82 82 85
+
+---
+
+```python
+T = int(input())
+cnt = [0]*101
+for t in range(1, T+1):
+    t_num = int(input())
+    score_lst = map(int,input().split())
+    for i in score_lst:
+        cnt[i]+=1
+    mx = max(cnt)
+    mx_lst = []
+    for i in cnt:
+        if i>=mx:
+            mx_lst.append(cnt.index(i))
+    print(max(mx_lst))
+```
