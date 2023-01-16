@@ -291,11 +291,17 @@ for i in range(T):
     word = input()
     for j in range(len(word)):
         word_lst.append(word[i])
+
+for i in range(len(word_lst)):
+    if word_lst[i]==word_lst[i+1]:
+        word_lst.remove(word_lst[i])
 ```
 
-아스키코드 출력
+앞에 나온단어가 뒤에 또나오면 안되는거지..음
 
-65 65 85 82 82 82 85
+나온단어를 리스트에 추가
+
+[1, 0, 1, 2,]
 
 ---
 
@@ -335,8 +341,40 @@ for t in range(1, T+1):
     print(f'#{t} {max(mx_lst)}')
 ```
 
-0 0 0 0 0
+---
 
-0 1 2 3 4
+# 5622
 
-50 100
+WA -> 
+
+[[0]*3]
+
+65 66 67: 1 
+
+1 2 3 : 1
+
+4 5 6 : 2
+
+68 69 70: 2
+
+87 88 89 90: 9
+
+65~89
+
+
+
+
+
+
+
+
+
+1-> 2초
+
+2 -> 2+1초
+
+3-> 2+1+1초
+
+4-> 2+ (n-1)초
+
+: n+1초
