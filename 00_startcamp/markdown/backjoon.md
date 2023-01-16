@@ -299,6 +299,8 @@ for i in range(T):
 
 ---
 
+# 사전학습 중 최빈값
+
 ```python
 T = int(input())
 cnt = [0]*101
@@ -314,3 +316,27 @@ for t in range(1, T+1):
             mx_lst.append(cnt.index(i))
     print(max(mx_lst))
 ```
+
+```python
+T = int(input())
+
+for t in range(1, T+1):
+    t_num = int(input())
+    score_lst = map(int,input().split())
+    cnt = [0]*101
+
+    for i in score_lst:
+        cnt[i]+=1
+    mx = max(cnt)
+    mx_lst = []
+    for i in cnt:
+        if i>=mx:
+            mx_lst.append(cnt.index(i))
+    print(f'#{t} {max(mx_lst)}')
+```
+
+0 0 0 0 0
+
+0 1 2 3 4
+
+50 100
