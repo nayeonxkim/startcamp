@@ -176,3 +176,51 @@ for i in range(1,4):
 ## 표현식 사용
 cubic_dic = {i: i**3 for i in range(1,4)}
 ```
+
+---
+
+# 과제
+
+> 내 풀이
+
+```python
+words = ["round" , "dream", "magnet" , "tweet" , "tweet", "trick", "kiwi"]
+
+used_words = []
+loser = []
+for i in range(1,len(words)):
+    if (words[i][0] != words[i-1][-1]) or (words[i] in used_words):
+        print(f'{i}번 {words[i]} 탈락 (0번 시작기준)')
+    else:
+        used_words.append(words[i])
+```
+
+- 0번째와 1번째를 비교하는 방법을 생각한다.
+  
+  - `words[0][-1] == words[1][0]` 
+
+---
+
+>  교수님 풀이
+
+```python
+used_words = []
+idx = 0
+while idx < len(words) -1:
+    if (words[idx][-1] == words[idx+1][0]) and (words[idx+1] not in used_words)::
+        used_words += [words[idx]]
+    else:
+        print(f'{idx}번째가 탈락했습니다.')
+        break
+    idx += 1
+```
+
+- 맨 마지막 애는 조사할 필요없음, 따라서 그 전까지만 조사함
+  
+  - 종료조건을 1더 작게, 그것보다 작을 때까지만 반복
+  
+  - 6개 -> 5까지만 반복
+
+- 조건: 앞단어의 마지막 글자, 뒷단어의 첫 글자가 같은지, 이전에 나오지 않았는지 확인
+
+- 사용되지 않았으면 사용단어에 저장, 틀렸거나 사용되면 탈락
