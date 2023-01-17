@@ -289,12 +289,17 @@ T = int(input())
 word_lst = []
 for i in range(T):
     word = input()
-    for j in range(len(word)):
-        word_lst.append(word[i])
-
+    for j in word:
+        word_lst.append(j)
+### 단어 한 글자씩 리스트 요소로 저장
+x_group = 0
 for i in range(len(word_lst)):
-    if word_lst[i]==word_lst[i+1]:
-        word_lst.remove(word_lst[i])
+    if word_lst[i]!=word_lst[i+1]: #aba
+        new_word = word_lst[i+1:]
+        if word_lst[i] in new_word:
+            x_group += 1
+
+print(len(word)-x_group)
 ```
 
 앞에 나온단어가 뒤에 또나오면 안되는거지..음
@@ -302,6 +307,8 @@ for i in range(len(word_lst)):
 나온단어를 리스트에 추가
 
 [1, 0, 1, 2,]
+
+<mark>같은 알파벳일 때 해당 글자를 제거하는 형식이 아니라, 다른 알파벳일 때 error를 1씩 추가</mark>
 
 ---
 
@@ -360,14 +367,6 @@ WA ->
 87 88 89 90: 9
 
 65~89
-
-
-
-
-
-
-
-
 
 1-> 2초
 
