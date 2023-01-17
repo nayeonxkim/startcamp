@@ -284,31 +284,39 @@ else:
 # 1316
 
 ```python
-T = int(input())
+# 단어 개수
+T = int(input()) 
 
-word_lst = []
-for i in range(T):
-    word = input()
-    for j in word:
-        word_lst.append(j)
-### 단어 한 글자씩 리스트 요소로 저장
 x_group = 0
-for i in range(len(word_lst)):
-    if word_lst[i]!=word_lst[i+1]: #aba
-        new_word = word_lst[i+1:]
-        if word_lst[i] in new_word:
+#단어 각각 실행하여 반복한다. 전체 과정을 T번 반복
+for t in range(T):    
+    word = input()                  
+# 글자수-1번 반복하여, 앞 글자와 뒷 글자가 다른지 확인한다.      
+    for i in range(len(word)-1):    
+      if word[i] != word[i+1]:      
+        n_word = word[i+1:]        
+        if word[i] in n_word:       
             x_group += 1
+            break            
 
-print(len(word)-x_group)
+print(T-x_group)
 ```
 
-앞에 나온단어가 뒤에 또나오면 안되는거지..음
+<mark>같은 알파벳X, 다른 알파벳일 때를 기준으로</mark>
 
-나온단어를 리스트에 추가
+- 단어 한글자씩 확인 aabpba
 
-[1, 0, 1, 2,]
+- 뒷 글자랑 다르면 그 뒷 글자부터 새로운 단어 만들기 bpba
 
-<mark>같은 알파벳일 때 해당 글자를 제거하는 형식이 아니라, 다른 알파벳일 때 error를 1씩 추가</mark>
+- 해당 회차 글자가 새로운 단어에 있는지 확인 a in bpba ?
+
+- 있으면 그룹단어아님+1
+
+- 전체 단어수 - 그룹단어아님
+
+- <span style='color:tomato'>**break** : break가 속한 가장 가까운 for문을 종료함. </span>
+
+- <span style="color:salmon">만약 같은 단어가 두 번씩 따로 나오는 단어의 경우, (aicpai는 a와 i 두 글자가 두 번씩 나옴) 글자 하나하나에 반복하는  for문 안에 x_group+=1이 들어있으므로 한 글자에 2씩 추가된다. 따라서 한번 추가를 했으면 break로 반복문을 빠져나오게 하여 1씩 추가되게 한다.</span>
 
 ---
 
@@ -350,30 +358,37 @@ for t in range(1, T+1):
 
 ---
 
+# 10809
+
+```python
+word = input()
+
+alpha = [-1]*26
+ord_lst = []
+for i in range(len(word)):
+    ord_lst.append(ord(word[i]))
+    if alpha[ord_lst[i]-97] == -1:
+        alpha[ord_lst[i]-97] = i
+    else:
+        pass
+
+print(*alpha)
+```
+
+- 알파벳 각각을 의미하는 리스트 생성: 인덱스 = 아스키코드 연결되도록
+
+- 단어 입력 받음 baz
+
+- 한 글자씩 아스키코드로 변환 [98, 97, 122]
+
+- alpha[값-97]인덱스에 inex(값) 추가
+
+- <mark>소문자 아스키코드 : 97~122</mark>
+
+- <mark>대문자 아스키코드 : 65~90</mark>
+
+- <span style='color:salmon'>print(*lst) : 리스트를 []와 , 빼고 요소만 출력</span>
+
+---
+
 # 5622
-
-WA -> 
-
-[[0]*3]
-
-65 66 67: 1 
-
-1 2 3 : 1
-
-4 5 6 : 2
-
-68 69 70: 2
-
-87 88 89 90: 9
-
-65~89
-
-1-> 2초
-
-2 -> 2+1초
-
-3-> 2+1+1초
-
-4-> 2+ (n-1)초
-
-: n+1초
