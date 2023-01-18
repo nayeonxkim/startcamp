@@ -46,7 +46,7 @@ for i in range(len(ans)):
 
 - 리스트끼리 연산은 +만 된다.
 
-- 리스트 요소를 리스트 빼고, 공백을 넣어서 출력하기 → for문 사용
+- 리스트 요소를 리스트 빼고, 공백을 넣어서 출력하기 → for문 사용 or *리스트
 
 ---
 
@@ -61,13 +61,13 @@ while True:
         break
 ```
 
-종결규칙이 없는 while 문
+- 종결규칙이 없는 while 문
 
-아무것도 입력되지 않을 때 종료되게 해야함
+- 아무것도 입력되지 않을 때 종료되게 해야함
 
-`try except` : except는 예외문 설정 예외 = Error
+- `try except` : except는 예외문 설정. 예외 = Error
 
-error가 있을때 except문 실행.
+- error가 있을때 except문 실행.
 
 ---
 
@@ -281,7 +281,7 @@ else:
 
 ---
 
-# 1316
+# 1316🥈
 
 ```python
 # 단어 개수
@@ -391,4 +391,34 @@ print(*alpha)
 
 ---
 
-# 5622
+# 2941
+
+```python
+word = input()
+word_lst = []
+for a in word:
+    word_lst.append(ord(a))
+
+alpha = [0]*26
+```
+
+- 기호는 삭제
+
+- dz, lj, nj는 하나
+
+abbbsb
+
+1 4 0 1 = 6
+
+[0]
+
+---
+
+# 2920
+
+```python
+scale = list(map(int,input().split()))
+sclae.sorted()
+```
+
+---
