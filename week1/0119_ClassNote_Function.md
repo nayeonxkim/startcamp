@@ -192,4 +192,29 @@
   
   - 안에 자주쓰는 사용자 정의함수들 정의해두면 됨.
 
+---
+
+# 5-2 실습 예외처리
+
+```python
+lst = [4, 4, 7, 8, 10, 4]
+total = 0
+used_number = []
+while True:
+    try:       
+        for n in range(len(lst)):
+            used_number.append(lst[n])
+            total += lst[n]
+            
+            if lst[n] in used_number:
+                raise Exception
+        print(total)
+        break    
+    except Exception as e:
+        pass
+
+
+print(used_number)
+```
+
 
