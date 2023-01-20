@@ -14,6 +14,8 @@ print(fn_d(91))
 >>> 
 ```
 
+- 재귀로 만들어보기
+
 #### 셀프넘버
 
 ```python
@@ -56,3 +58,17 @@ def is_selfnumber(m):
 `all()` : 하나라도 False면 False
 
 `any()` : 하나라도 True면 True
+
+---
+
+```python
+def sum(n):
+    if n ==5:
+        return True
+    else:
+        sum(n+1)
+```
+
+이렇게하면 결과가 None
+
+sum(n+1) 앞에 return 달아줘야 True반환함
