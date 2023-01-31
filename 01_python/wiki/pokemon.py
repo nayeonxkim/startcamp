@@ -37,12 +37,11 @@ class Pokemon():
         while True:
             pok2.hp -= pok1.attack()
             if pok2.hp <= 0:
-                print(f'{pok2.name}이 쓰러졌다!')
-                return
+                return f'{pok2.name}이 쓰러졌다!'
             pok1.hp -= pok2.attack()
             if pok2.hp <= 0:
-                print(f'{pok1.name}이 쓰러졌다!')
-                return
+                return f'{pok1.name}이 쓰러졌다!'
+                
     
         
 pika = Pokemon('피카츄')
@@ -50,5 +49,5 @@ meta = Pokemon('메타몽', 5)
 
 # 인스턴스 변수가 우선되어 반환
 
-print(pika.hp)
-Pokemon.battle(pika, meta)
+# print(pika.hp)
+# Pokemon.battle(pika, meta)

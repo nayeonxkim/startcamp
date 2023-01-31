@@ -1,16 +1,13 @@
+class Person:
+	def __init__(self):
+        self._id = '990916-1234567'
 
-def label(func):
-    def wrapper(name):
-        print(name, end=' : ')
-        func(name)
-    return wrapper
-# 함수를 받아서 함수를 반환하는 함수 (?ㅋㅋ)
-
-@label
-def professor(name):
-    print(f'반갑네 {name}교수일세')
-    print(f'연구는 잘 되어가나?')
+	@property
+	def id(self):
+        return self._id[:8] + '*'*5
 
 
 
-professor('홍')
+# 데코레이터를 사용하여 메서드를 변수처럼 불러와서 사용
+p1 = Person()
+print(p1.id)
