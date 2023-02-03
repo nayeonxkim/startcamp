@@ -21,6 +21,7 @@ lst = {
 2 [1,3,5]
 
 3 [4,8]
+'''
 import sys
 sys.stdin = open('input.txt')
 
@@ -55,5 +56,4 @@ for tc in range(1, T+1):
                     if (not (n % 4)):
                         bus_stop[n] += 1
 
-    max
-    print(bus_stop)
+    print(f'#{tc} {max(bus_stop)}')
