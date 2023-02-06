@@ -61,40 +61,10 @@ sys.stdin = open('input.txt')
 T = int(input())
 for tc in range(1, T+1):
     N, K = map(int, input().split())
-    arr = [[]] * N
+    arr = [[] for i in range(N)]
     for i in range(N):
         arr_num = list(map(int, input().split()))
         arr[i] = arr_num
 
     print(arr)
 
-    # 가로 확인
-    point = 0
-    for i in range(N):
-        K_copy = K
-        for j in range(N):
-            K_copy -= arr[i][j]
-        if K_copy == 0 :
-            point += 1
-    print(point)
-    print('===============================================')
-    # 세로 확인
-
-    point = 0
-    for i in range(N):
-        K_copy = K
-
-        for j in range(N):
-            if arr[j][i] == 1:
-                K_copy -= arr[j][i]
-                if K_copy == 0:
-                    point += 1
-            else:
-                K_copy = K
-                if K_copy == 0:
-                    point += 1
-
-
-    print('===============================================')
-    print(point)
-    print('===============================================')
