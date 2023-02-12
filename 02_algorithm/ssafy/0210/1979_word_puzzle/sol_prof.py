@@ -55,4 +55,6 @@ for tc in range(1, T+1):
                 arr[i][j], arr[j][i] = arr[j][i], arr[i][j]
     ans2 = check_blank(arr)
 
-    print(f'#{tc} {ans1+ans2}')
+    print(arr)
+
+    print(f'#{tc} {ans1}')
