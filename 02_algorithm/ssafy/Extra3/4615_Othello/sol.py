@@ -21,20 +21,35 @@ for tc in range(1, T+1):
         col = j - 1
 
         arr[row][col] = color
-
+        tlst = []
         for k in range(8):
-            ni = row + di[k] * 2
-            nj = col + dj[k] * 2
-            mi = row + di[k]
-            mj = col + dj[k]
-            if 0 <= ni < N and 0 <= nj < N:
-                if arr[ni][nj] == color:
-                    if arr[mi][mj] and arr[mi][mj] != color:
-                        arr[ni][nj] = color
+
+            for n in range(1, N):
+                ni = row + di[k] * n
+                nj = col + dj[k] * n
+                if 0 <= ni < N and 0 <= nj < N: # 범위내에서
+                    if arr[ni][nj] == 0:    # 0이면 더이상 뻗어나가지 않고 멈춤
+                        break
+                # 나랑 다른 색의 돌이면 뒤집을 돌 후보에 추가한다.
+                    elif arr[ni][nj] != color:
+                        tlst.append((ni, nj))
+                # 같은 돌이면, 후보를 뒤집는다.
+                    else:
+                        while tlst:
+                            ti, tj = tlst.pop()
+                            arr[ti][tj] = color
+                        break
+
+
+
+        bcnt = wcnt = 0
+        for lst in arr:
+            bcnt += lst.count(1)
+            wcnt += lst.count(2)
+        print(bcnt, wcnt)
 
         for i in range(N):
             print(arr[i])
-        print()
 
         # if ni > row:
         #     r = ni - 1
@@ -53,5 +68,4 @@ for tc in range(1, T+1):
         # arr[r][c] = color
 
 
-    # for i in range(N):
-    #     print(arr[i])
+
