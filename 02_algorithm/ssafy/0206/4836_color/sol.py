@@ -31,6 +31,7 @@ for tc in range(1, T+1):
         for row in range(start_row, end_row+1):
             for col in range(start_col, end_col+1):
                 zone[row][col] += color
+        print(zone)
 
     # 빨강(1) + 파랑(2)이 모두 칠해진 보라색(3) 칸의 개수를 세어 반환한다.
     res = 0
