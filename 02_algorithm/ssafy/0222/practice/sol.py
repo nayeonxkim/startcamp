@@ -62,7 +62,7 @@ for i in range(E):
     # print(right)
 
 
-
+# 루트 노드 찾기
 root = 0
 for i in range(1, V+1):
     # 모든 노드를 순회하면서 부모노드가 없으면
