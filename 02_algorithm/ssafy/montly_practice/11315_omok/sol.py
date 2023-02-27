@@ -30,15 +30,16 @@ for tc in range(1, T+1):
     point = ans3 = 0
     for i in range(N - 1):
         for j in range(N - 1):
-            row, col = i, j
-            while 0 <= row < N-1 and 0 <= col < N-1:
-                if arr[row][col] == 'o':
+             while arr[i][j] == 'o':
                     point += 1
                     if point == 5:
-                        ans4 = 1
+                        ans3 = 1
                         break
-                row += 1
-                col += 1
+                    if 0 <= i < N - 1 and 0 <= j < N - 1:
+                        i += 1
+                        j += 1
+
+
 
     # 오->왼 대각선
     point = ans4 = 0
