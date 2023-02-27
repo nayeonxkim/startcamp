@@ -1,59 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55f5edcc-2a64-47c5-af4b-ab1b174719bb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/10773_zero/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/10773_zero/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/10828_stack/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/10828_stack/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/10870_Fibonacci/memoization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/10870_Fibonacci/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/10872_factorial/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/10989_counting_sort/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/10989_counting_sort/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/10989_counting_sort/sol_memory_over.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/10989_counting_sort/sol_time_over.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/11725_tree_parents/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/11725_tree_parents/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/15649_n&amp;m/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/15649_n&amp;m/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/18870_Coordinate_compression/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/18870_Coordinate_compression/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/1920_binary_search/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/1920_binary_search/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/1991_tree_order/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/1991_tree_order/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2231_decomposition/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2231_decomposition/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2468_safety_zone/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2468_safety_zone/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/25305_cutline/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/25305_cutline/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2563_2d_color/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2563_2d_color/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2587_avg_median/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2587_avg_median/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2667_apart_number/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2667_apart_number/review.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2667_apart_number/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2667_apart_number/sol2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2667_apart_number/sol3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2750_sort/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2750_sort/sol_bubble.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2750_sort/sol_counting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2750_sort/sol_selection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2798_blackjack/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/2798_blackjack/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/4949_balanced_world/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/4949_balanced_world/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/9012_valid/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/9012_valid/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/9934_complete_binary_tree/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02_algorithm/backjoon/9934_complete_binary_tree/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="55f5edcc-2a64-47c5-af4b-ab1b174719bb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,17 +11,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2MJyQopRORMdgk5Pj8QkzMzoPm1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
-  }
-}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
