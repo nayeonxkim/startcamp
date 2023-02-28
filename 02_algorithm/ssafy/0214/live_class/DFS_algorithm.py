@@ -28,6 +28,6 @@ while stack:
             if arr[start][j] == 1 and not visited[j]:
                 stack.append(j)
 
-#
-# for i in range(N+1):
-#     print(arr[i])
+
+for i in range(N+1):
+    print(arr[i])

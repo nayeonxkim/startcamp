@@ -32,12 +32,13 @@ for tc in range(1, T+1):
         for j in range(N - 1):
              while arr[i][j] == 'o':
                     point += 1
-                    if point == 5:
-                        ans3 = 1
-                        break
                     if 0 <= i < N - 1 and 0 <= j < N - 1:
                         i += 1
                         j += 1
+
+                    if point == 5:
+                        ans3 = 1
+                        break
 
 
 
