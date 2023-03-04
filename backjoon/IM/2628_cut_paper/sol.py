@@ -13,7 +13,8 @@ for _ in range(L):
         height.append(num)
     else:
         width.append(num)
-
+width.sort()
+height.sort()
 print(width, height)
 # w, h = map(int,input().split())
 # a = int(input())
