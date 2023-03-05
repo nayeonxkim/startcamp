@@ -5,52 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="628cfc30-604f-4f95-9409-533c85b970de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/IM/BOJ/1244_switch/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/BOJ/2304_storage/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/BOJ/2304_storage/sew.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/BOJ/2304_storage/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/BOJ/2491_seq/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/BOJ/2491_seq/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/BOJ/2491_seq/sol2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/BOJ/2559_seq/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/BOJ/2559_seq/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/BOJ/2559_seq/sol2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/BOJ/2564_security/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/BOJ/2564_security/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/BOJ/2628_cut_paper/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/SWEA/11315_omok/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/SWEA/11315_omok/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/SWEA/1220_Magnetic/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/SWEA/1220_Magnetic/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/SWEA/1970_change/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/SWEA/1970_change/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/SWEA/2805_farm/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/SWEA/2805_farm/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/SWEA/5356_sero_talk/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/SWEA/5356_sero_talk/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/SWEA/5431_hw/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IM/SWEA/5431_hw/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/1068_tree/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/1068_tree/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/15684_ladder/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/15684_ladder/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/2615_omok/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/2615_omok/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/7682_tictacto/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backjoon/7682_tictacto/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backjoon/IM/1244_switch/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IM/BOJ/1244_switch/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backjoon/IM/1244_switch/sol.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backjoon/IM/2628_cut_paper/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IM/BOJ/2628_cut_paper/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backjoon/IM/2628_cut_paper/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/backjoon/IM/2628_cut_paper/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backjoon/IM/2635_continue/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IM/BOJ/2635_continue/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backjoon/IM/2635_continue/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/IM/BOJ/2635_continue/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backjoon/IM/2669_square/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IM/BOJ/2669_square/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backjoon/IM/2669_square/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/IM/BOJ/2669_square/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backjoon/IM/4613_russia/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IM/SWEA/4613_russia/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backjoon/IM/4613_russia/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/IM/SWEA/4613_russia/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backjoon/2615_omok/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backjoon/2615_omok/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,15 +34,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.sol (3)">
-    <configuration name="sol (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Python.sol2 (1)">
+    <configuration name="sol (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="startcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,53 +50,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IM/SWEA/6190_jeonggon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IM/BOJ/2578_bingo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IM/SWEA/6190_jeonggon/sol.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sol (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="startcamp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IM/SWEA/4466_max_score" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IM/SWEA/4466_max_score/sol.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sol (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="startcamp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IM/SWEA/1961_turn_array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IM/SWEA/1961_turn_array/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IM/BOJ/2578_bingo/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +71,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IM/SWEA/1267_workflow" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IM/BOJ/2477_fruit_farm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IM/SWEA/1267_workflow/sol.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IM/BOJ/2477_fruit_farm/sol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sol_combination" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sol2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="startcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,11 +92,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IM/SWEA/4466_max_score" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backjoon/2615_omok" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IM/SWEA/4466_max_score/sol_combination.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backjoon/2615_omok/sol2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sol2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="startcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IM/SWEA/1220_Magnetic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IM/SWEA/1220_Magnetic/sol2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="startcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IM/BOJ/2578_bingo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IM/BOJ/2578_bingo/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sol (3)" />
-        <item itemvalue="Python.sol (2)" />
-        <item itemvalue="Python.sol_combination" />
-        <item itemvalue="Python.sol (1)" />
+        <item itemvalue="Python.sol2 (1)" />
+        <item itemvalue="Python.sol2" />
         <item itemvalue="Python.sol" />
+        <item itemvalue="Python.sol (4)" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
