@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SSAFY 학생 건강설문</title>
+</head>
+<body>
+
+  <!--header-->
+  <header>
+    <a href="https://www.ssafy.com/ksp/jsp/swp/swpMain.jsp">
+      <img src="./ssafy_logo.png" alt="main img" width="300">
+    </a>
+    <h1>SSAFY 학생 건강설문</h1>
+  </header>
+  
+
+  <!--section-->
+  <section>
+    <form action="">
+      <!--이름-->
+      <div>
+        <br>
+        <label for="name">이름을 기재해주세요.</label>
+        <br>
+        <input id="name" type="text">
+        <hr>
+      </div>
+
+      <!--지역-->
+      <div>
+        <label for="region">지역을 선택해주세요.</label>
+        <br>
+        <select name="지역" id="region" required>
+          <option value=""selected disabled hidden>선택</option>
+          <option value="부울경">부울경</option>
+          <option value="서울">서울</option>
+          <option value="구미">구미</option>
+          <option value="광주">광주</option>
+          <option value="대전">대전</option>
+        </select>
+        <hr>
+      </div>
+
+      <!--체온-->
+      <div>
+        <p>오늘의 체온을 선택해주세요.</p>
+        <input id="under17" type="radio", checked>
+        <label for="under17">37도 미만</label>
+        <br>
+        <input id="over17" type="radio">
+        <label for="over17">37도 이상</label>
+        <hr>
+      </div>
+
+    </form>
+  </section>
+
+  <input type="button" name="제출" id="submit" value="제출">
+    <br>
+
+  <!--footer-->
+  <footer>
+    Google 설문지를 통해 비밀번호를 제출하지 마시오.
+  </footer>
+
+
+</body>
+</html>

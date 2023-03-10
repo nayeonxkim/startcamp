@@ -1,0 +1,85 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+*{
+  box-sizing: border-box;
+  font-family: 'Jeju Gothic', sans-serif;
+
+}
+
+.card{
+  width: 500px;
+  height: 700px;
+  border:3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-header{
+  background-color: rgb(175, 201, 240);
+}
+
+h1{
+  margin-top: 0;
+  text-align: center;
+}
+
+img{
+  width:300px;
+  height: 308px;
+  border:5px dotted rgb(209, 218, 247);
+  border-radius: 20px;
+}
+
+.image-image{
+  margin-top: 40px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.image-name{
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: rgb(196, 211, 255);
+}
+
+.image-name-feature{
+  margin-top: 0px;
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 50px;
+}
+
+.description{
+  position:relative;
+}
+.description-title{
+  margin-left: 15px;
+  margin-bottom: 0;
+}
+h3{
+  margin-bottom: 0;
+}
+.description-date{
+  position:absolute;
+  right: 10px;
+  top: 0;
+}
+
+.description-details{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 100px;
+  border:2px solid black;
+
+  text-align: center;
+
+}
+
+.d{
+  margin-top: 0px;
+
+}

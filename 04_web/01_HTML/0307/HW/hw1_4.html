@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+    <style>
+
+      .data:focus{
+        border-color :blue;
+        outline: none;
+      }
+  </style>
+</head>
+<body>
+  <form action="" name="login">
+    <div>
+      <label onclick="document.getElementById('ID').focus()" for="ID"><b>USERNAME : </b></label>
+      <input class="data" id="ID" type="text" placeholder="아이디를 입력 해 주세요.">
+      <br>
+      <label onclick="document.getElementById('password').focus()" for="password"><b>PWD : </b></label>
+      <input class="data" id="password" type="text"> <input type="button" value="로그인">
+    </div>
+  </form>
+  
+
+</body>
+</html>
