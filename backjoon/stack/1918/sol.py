@@ -1,29 +1,34 @@
 import sys
 sys.stdin = open('input.txt')
 
-T = int(input())
-for tc in range(1, T+1):
-    cal = input()
+cal = input()
 
-    new_cal = ''
-    stack = []
-    for char in cal:
-        if char not in '+-*/()':
-            new_cal += char
+ans = ''
+stack = []
 
-        elif char in '+-':
-            if stack:
-                while stack[-1] in '+-*/':
-                    new_cal += stack.pop()
-            stack.append(char)
+for char in cal:
+    if char not in '*/+-()':
+        ans += char
 
-        elif char in '*/':
-            if stack:
-                while stack[-1] in '*/':
-                    new_cal += stack.pop()
-            stack.append(char)
+    elif char in '*/':
+        while stack and stack[-1] in '*/':
+            ans += stack.pop()
+        stack.append(char)
 
-        elif char == '(':
-            stack.append(char)
+    elif char in '+-':
+        while stack and stack[-1] in '*/-+':
+            ans += stack.pop()
+        stack.append(char)
 
-        elif 
+    elif char == '(':
+        stack.append(char)
+
+    else:
+        while stack[-1] != '(':
+            ans += stack.pop()
+        if stack[-1] == '(':
+            stack.pop()
+
+while stack:
+    ans += stack.pop()
+print(ans)
