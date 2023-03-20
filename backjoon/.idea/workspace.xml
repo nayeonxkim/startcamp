@@ -3,7 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="34a0bafa-1aad-4df7-9c50-7f798d0bb8a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/../pocketball/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pocketball/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pocketball/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pocketball/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pocketball/.idea/pocketball.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pocketball/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pocketball/baseline.py" beforeDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/../test.txt" beforeDir="false" />
+>>>>>>> 174df9aaff211f8c77331a226a2fa68a26b561ca
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
